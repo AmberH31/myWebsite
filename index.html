@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Amber | Portfolio Website</title>
+  </head>
+  <body>
+    <!-- --nav start-- -->
+    <nav class="navbar fixed-top" id="navbar">
+      <a class="navbar-brand" href="#"
+        >Amber<br />
+        <h1>Web & Graphic Design</h1>
+      </a>
+      <div class="nav-box">
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+        <a href="#"><img id="linkedin" src="img/linkedin-logo.png" alt=""/></a>
+      </div>
+    </nav>
+
+    <!-- --nav ends-- -->
+    <!-- --header starts-->
+    <div class="header" id="header">
+      <div class="box text-center">
+        <h1>AAAAA <strong>ABBBBB</strong>.</h1>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+    </div>
+    <!-- --header ends-- -->
+    <!-- About me starts -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 aboutme">
+          <h1 id="about" class="title text-center">About <span>Me</span></h1>
+          <p class="sub text-center">Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="space"></div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-xs-12">
+              <img src="img/profile.jpg" alt="">
+            </div>
+            <div class="secondbox col-lg-6 col-md-12 col-xs-12">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                magni possimus, accusamus deleniti, nostrum, fugit et hic
+              </p>
+              <ul>
+                <li class="tab-pane fade show activ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li class="tab-pane fade show activ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li class="tab-pane fade show activ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li class="tab-pane fade show activ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li class="tab-pane fade show activ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+              </ul>
+            </div>
+            <h1 class="space title text-center col-lg-12">Professional <span> Skills</span></h1>
+            <div class="col-lg-12">
+                <div class="col-lg-6">
+                    <p>Adobe Photoshop</p>
+                    <p>Adobe Illustrator</p>
+                    <p>Adobe Indesign</p>
+                    <p>Html / CSS</p>
+                </div>
+                <div class="col-lg-6">
+                    <div>Not sure what to do here.</div>
+                    <img src="" alt="">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About me ends -->
+    <!-- Projects starts -->
+    <div class="section project">
+        <div class="container">
+            <h1 class="text-center title" id="projects">Projects</h1>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+    <!-- Projects ends -->
+    <!-- --Contact starts-->
+    <div id="contact">
+        <div class="contact section">
+            <div class="container">
+                <div class="row">
+                    <h1 id="cntact" class="title text-center"></h1>
+                    <div class="space"></div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="content">
+                                <h3>CONTACTS</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui deleniti inventore magnam, totam vero excepturi non deserunt earum libero quasi nemo nobis, sed quidem accusantium ad autem alias! Cupiditate, nobis.</p>
+                                <p><a href="">ting820831@gmail.com</a></p>
+                                <p>Tel : 469-512-2930</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <form action=""></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --Contact ends-- -->
+    <!-- --footer starts-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">
+                            <a style="color: rgb(51, 51, 71); font-weight: bold;" href="#navbar">TOP</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- --footer ends-- -->
+    <!-- javascrtipt starts -->
+    <script>
+      //   $(window).scroll(function() {
+      //     if ($(".navbar").offset().top > 50) {
+      //       $(".navbar").addClass("top-nav");
+      //     } else {
+      //       $("").removeClass("top-nav");
+      //     }
+      //   });
+
+      $(function() {
+        $("#linkedin").on({
+          mouseenter: function() {
+            $(this).attr("src", "img/linkedin-logo-hover");
+          },
+          mouseleave: function() {
+            $(this).attr("src", "img/linkedin-logo.png");
+          }
+        });
+      });
+    </script>
+    <!-- javascript ends -->
+  </body>
+</html>
